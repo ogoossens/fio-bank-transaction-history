@@ -1,0 +1,26 @@
+{
+  "name": "fio-bank-transaction-history",
+  "version": "1.0.0",
+  "description": "Unofficial FIO BANK module to get FIO bank account transaction history",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ogoossens/fio-bank-transaction-history"
+  },
+  "keywords": [
+    "FIO",
+    "POST",
+    "XML",
+    "REQUEST",
+    "SOAP"
+  ],
+  "author": "Oliver Goossens <oliver.goossens@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "moment": "^2.29.1",
+    "node-fetch": "^2.6.1"
+  }
+}
