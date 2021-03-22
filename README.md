@@ -10,8 +10,10 @@
  [![Version](https://img.shields.io/npm/v/fio-bank-transaction-history.svg)](https://www.npmjs.com/package/fio-bank-transaction-history) [![Downloads](https://img.shields.io/npm/dt/fio-bank-transaction-history.svg)](https://www.npmjs.com/package/fio-bank-transaction-history)
 
 > **Unofficial** FIO BANK module to get FIO bank account transaction history
-- :heavy_check_mark: **FROM - TO** date request
-- :heavy_check_mark: **LAST X days** request
+
+:heavy_check_mark: **FROM - TO** date request
+
+:heavy_check_mark: **LAST X days** request
 
 
 
@@ -115,7 +117,7 @@ So if you need to access the CURRENCY for example you call
 result.accountStatement.transactionList.transaction[0].column14.value;
 ```
 
-image here
+![2021-03-23 00_28_34-FIO Banka API manual pdf - Adobe Acrobat Reader DC (32-bit)](https://user-images.githubusercontent.com/8824657/112072517-4845d200-8b72-11eb-90ab-a4b8c5dce86e.png)
 
 
 
