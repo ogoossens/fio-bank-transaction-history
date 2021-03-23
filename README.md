@@ -17,9 +17,7 @@
 
 
 
-
 ## :cloud: Installation
-
 ```sh
 # Using npm
 npm install --save fio-bank-transaction-history
@@ -28,7 +26,6 @@ npm install --save fio-bank-transaction-history
 
 
 ## :computer: Usage
-
 ```js
 const fio = require('fio-bank-transaction-history');
 fio.setToken(" < YOUR FIO TOKEN >");
@@ -53,7 +50,6 @@ fio.getHistoryFromToDate("2021-02-13", "2021-03-13")
 ```
 
 ## :information_source: Tips
-
 ```js
 // For date format use moment.js
 // To get today date in required format use
@@ -65,7 +61,6 @@ moment().format("YYYY-MM-DD");
 
 
 ## :page_facing_up: Options
-
 ```js
 // Set different FIO URL
 // Default is : https://www.fio.cz/ib_api/rest/periods/
@@ -120,6 +115,11 @@ result.accountStatement.transactionList.transaction[0].column14.value;
 ![2021-03-23 00_28_34-FIO Banka API manual pdf - Adobe Acrobat Reader DC (32-bit)](https://user-images.githubusercontent.com/8824657/112072517-4845d200-8b72-11eb-90ab-a4b8c5dce86e.png)
 
 
+## :package: Sibling
+For **posting payment requests** to FIO BANK please use package
+```sh
+require('fio-bank-payment-request')
+```
 
 ## :question: Get Help
 For bug reports and feature requests, open issues. :bug:
@@ -133,10 +133,10 @@ Have an idea? Found a bug? Let me know :thumbsup:
 Thanks! :heart:
 
 
-<!--
+
 ## :dizzy: Where is this library used?
 If you are using this library in one of your projects, add it in this list. :sparkles:
--->
+- *BOLT Driver Management*
 
 
 ## :scroll: License
