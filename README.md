@@ -118,7 +118,7 @@ result.accountStatement.transactionList.transaction[0].column14.value;
 ## :package: Sibling
 For **posting payment requests** to FIO BANK please use package
 ```sh
-require('fio-bank-payment-request')
+require('fio-bank-payment-request');
 ```
 
 ## :question: Get Help
