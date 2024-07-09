@@ -1,6 +1,6 @@
 {
   "name": "fio-bank-transaction-history",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Unofficial FIO BANK module to get FIO bank account transaction history",
   "main": "lib/index.js",
   "scripts": {
